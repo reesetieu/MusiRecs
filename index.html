@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spotify Profile Display</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <script src="https://kit.fontawesome.com/57451617d4.js" crossorigin="anonymous"></script>
+    <script src="src/script.js" type="module"></script>
+  </head>
+
+
+  <body>
+    <header>
+      <h1>Spotify Profile Data:</h1>
+      </header>
+
+    <div class="main">
+
+    <section id="profile">
+      <h2>User: <span id="displayName"></span></h2>
+      <span id="avatar"></span>
+      <ul>
+        <li>User ID: <span id="id"></span></li>
+        <li>Email: <span id="email"></span></li>
+        <li>Spotify URI: <a id="uri" href="#"></a></li>
+        <li>Link: <a id="url" href="#"></a></li>
+      </ul>
+    </section>
+    <section id="tracks">
+      <h3>Top Tracks:</h3>
+      <ol id="toptracks"></ol>
+    </section>
+    <section id="rectracks">
+      <h3>Recommended Tracks:</h3>
+      <ol id="recs"></ol>
+      <button id="genplay">Generate Playlist</button>
+      <button id="qplay">Add to Queue</button>
+    </section>
+  </div>
+  <header>
+    <h1>Player Controls:</h1>
+  </header>
+  <div class="main">
+    <section id="player">
+      <button id="backbtn"><i class="fa-solid fa-backward"></i> </button>
+      <button id="p/pbtn"><i class="fa-solid fa-play"></i>&nbsp; <i class="fa-solid fa-pause"></i></button>
+      <button id="skipbtn"><i class="fa-solid fa-forward"></i></button>
+
+    </section>
+  </div>
+  </body>
+</html>
