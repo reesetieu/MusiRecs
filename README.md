@@ -9,3 +9,5 @@ Compiles with:
 ```
 npm run dev
 ```
+
+![alt text](image-1.png)
