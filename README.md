@@ -11,6 +11,7 @@ Compiles with:
 ```
 npm run dev
 ```
+This program runs on port 5173 on your local machine.
 
 Sample profile:
 
