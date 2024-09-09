@@ -10,4 +10,6 @@ Compiles with:
 npm run dev
 ```
 
+Sample profile:
+
 ![alt text](image-1.png)
