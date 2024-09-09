@@ -1,6 +1,8 @@
 import {redirectToAuthCodeFlow, getAccessToken} from "./authCodePkce.js";
 //import {play, pause, skip, back} from "./player.js";
-const clientId = "b6b8ff8a322340a4b2d0a31bdc0eb7eb";
+
+// Update ClientID with your client ID from Spotify
+const clientId = "yourclientid";
 const params = new URLSearchParams(window.location.search);
 const code = params.get("code");
 const TIME_RANGE = "medium_term";
